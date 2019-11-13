@@ -1,0 +1,8 @@
+# def palybook for selinix-pgsql role
+---
+- name: Set SELinux module to disable state and install pgsql
+  hosts: all
+  become: yes
+
+  roles:
+    - selinux-pgsql
