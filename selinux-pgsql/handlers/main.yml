@@ -1,0 +1,4 @@
+---
+# handlers file for selinux-pgsql
+- name: Restart server
+  reboot:

@@ -1,0 +1,16 @@
+galaxy_info:
+  author: amaksimenko
+  description: SELinix disable and PostgreSQL install simple role 
+  company: none
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: RHEL
+      versions:
+        - 7
+    - name: Ubuntu
+      versions:
+        - bionic
+
+dependencies: []
